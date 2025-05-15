@@ -19,6 +19,7 @@
   {% if result %}
     <h2>Input: "{{ input }}"</h2>
     <h2>Sentiment: <span style="color:blue">{{ result.upper() }}</span></h2>
+    <h3>Confidence: {{ confidence }}%</h3>
   {% endif %}
 </body>
 </html>
